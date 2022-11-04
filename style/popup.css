@@ -1,0 +1,90 @@
+/*================================*/
+/* CSS styling for the popup menu */
+/*================================*/
+
+body {
+  text-align: center;
+  font-family: 'Helvetica';
+  width: 440px;
+  margin: 0;
+  padding: 1em;
+  color: white;
+  background: radial-gradient(#2C4792, #162346);
+  border: solid 2px #2C4792;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 100;
+  margin: 0.8em;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0.8em;
+  padding: 0.8em 1em;
+  border: solid 2px #2C4792;
+  border-radius: 0.5em;
+  background: #2C4792;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+.open-ordhekdeen-btn{
+  font-size: 1em;
+  font-weight: 100;
+  padding: 0.8em 1em;
+  border: solid 2px #2C4792;
+  border-radius: 0.5em;
+  background: #2C4792;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover {
+  border: solid 1px white;
+  opacity: 1;
+}
+
+button:disabled {
+  opacity: 0.3;
+}
+.bios a{
+  color: white;
+  margin: 0.8em 0;
+  display: block;
+  margin-right: 5px;
+}
+.bios li{
+  display: flex;
+  align-items: center;
+}
+.refresh{
+  cursor: pointer;
+}
+.active_age{
+  color: #2C4792;
+  background-color: #fff;
+}
+.ages{
+  margin-bottom: 1em;
+}
+.ages span{
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.1em;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+}
