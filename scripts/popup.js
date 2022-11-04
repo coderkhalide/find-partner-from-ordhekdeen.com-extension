@@ -26,7 +26,12 @@ const extensionInit = () => {
 
     const html = `<ol>
   ${bios.map(bio => `
-    <li><a class="bio" href="${bio}" target="_blank">${bio}</a><span class="copy_link">copy</span></li>`).join('')}
+    <li>
+      <div>
+      <a class="bio" href="${bio}" target="_blank">${bio}</a><span class="copy_link">copy</span>
+      </div>
+    </li>
+    `).join('')}
   </ol>
   `
     document.querySelector('.bios').innerHTML = html

@@ -63,7 +63,7 @@ button:disabled {
   display: block;
   margin-right: 5px;
 }
-.bios li{
+.bios li > div{
   display: flex;
   align-items: center;
 }
